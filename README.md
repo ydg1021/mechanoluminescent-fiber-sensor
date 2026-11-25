@@ -16,6 +16,13 @@ This repository holds a short record of the prototype and its light emission; it
   <sub>Prototype: a transparent fiber with the mechanoluminescent section in the middle.</sub>
 </p>
 
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="docs/ml_fiber_fixture.jpg" alt="Fiber fixed on a plate" width="380" /><br><sub>A fiber fixed on a plate for testing (January 2022).</sub></td>
+    <td align="center" width="50%"><img src="docs/ml_readout_setup.jpg" alt="Early readout setup" width="380" /><br><sub>Early readout setup with a breadboard circuit and an Arduino board (November 2021).</sub></td>
+  </tr>
+</table>
+
 ## Publications
 
 - M. Kim, D.-G. Yuk, D. Ryu, J. W. Sohn, "Mechanical Characteristics Evaluation of Fibrous Mechanoluminescent Sensor," *J. Korean Soc. Manuf. Process Eng.*, 23(9), 1–11, 2024. https://doi.org/10.14775/ksmpe.2024.23.09.001
@@ -29,6 +36,8 @@ This repository holds a short record of the prototype and its light emission; it
 |---|---|
 | `docs/ml_fiber_glow.gif` | Light emission of the fiber under repeated bending |
 | `docs/ml_fiber_prototype.jpg` | Photo of the fiber prototype |
+| `docs/ml_fiber_fixture.jpg` | Fiber fixed on a plate for testing |
+| `docs/ml_readout_setup.jpg` | Early readout setup |
 
 ## Notes
 
