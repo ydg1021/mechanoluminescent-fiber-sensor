@@ -1,7 +1,7 @@
 # Fiber-Type Mechanoluminescent Strain Sensor
 
 A flexible fiber-type sensor with a mechanoluminescent section that emits light when the fiber is deformed.
-I learned the fabrication method, set up the equipment and the process in our lab, and trained the lab members who continued the work.
+I learned the fabrication method during a research visit to a collaborating laboratory, then set up the equipment and the process in our lab and trained the lab members who continued the work.
 This repository holds a record of the fabrication process, the prototype and its light emission; it contains media only, no code.
 
 <p align="center">
@@ -40,6 +40,24 @@ This repository holds a record of the fabrication process, the prototype and its
 | First cure | vacuum oven, 15 min |
 | Demoulding | the silicone tube is removed |
 | Second cure | vacuum oven, 1 h 45 min |
+
+## Prototype development
+
+The steps below come from my activity record of the research visit; the photos and the clip in this repository date from that period.
+
+| Attempt | Method | Outcome noted in the record |
+|---|---|---|
+| 1 | Liquid mechanoluminescent mixture placed in a tube filled with PDMS and cured in the oven | the mixture sank under gravity while it cured |
+| 2 | Mixture injected into the centre of the fiber with a syringe | the shape of the mixture inside was not uniform |
+| 3 | Mixture cured slightly in a thinner silicone tube and then drawn into a tube filled with PDMS | a fiber of the intended form |
+| 4 | Thin film: mixture spread between PDMS with glass, cured for 10 min, cut to shape while still tacky, cured for about 2 h more, placed in a 2 mm tube and the rest filled with PDMS | more stable to make than attempts 2 and 3 |
+
+- The sheet-type sensor that I first made during the visit used ZnS:Cu and PDMS at 7:3, degassed in a vacuum desiccator and cured for 2 h in an oven at 80 °C.
+- The first light readout was a phototransistor circuit read by an Arduino board, which showed no change when the fiber emitted light.
+- A multimeter showed a voltage change of about 0.5 mV, below the 4.9 mV resolution of the Arduino analog input.
+- An amplifier stage with a gain of 100 was added, and the change was still not visible after it.
+- The record ends with the plan to rebuild the circuit on a soldered board with a different amplifier and to change the joint between the mixture and the PDMS so that more light passes.
+- The AMSM 2022 poster measures the emission with a camera instead.
 
 ## Test and result
 
