@@ -1,7 +1,7 @@
 # Fiber-Type Mechanoluminescent Strain Sensor
 
 A flexible fiber-type sensor with a mechanoluminescent section that emits light when the fiber is deformed.
-I learned the fabrication method during a research visit to a collaborating laboratory, then set up the equipment and the process in our lab and trained the lab members who continued the work.
+I learned the fabrication method during a research visit to a collaborating laboratory that began in September 2021, then set up the equipment and the process in our lab and trained the lab members who continued the work.
 This repository holds a record of the fabrication process, the prototype and its light emission; it contains media only, no code.
 
 <p align="center">
